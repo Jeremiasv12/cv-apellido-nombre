@@ -2,4 +2,4 @@
 # Trabajo práctico nº1  
 Curriculum Web – Apellido Nombre  
 
-URL Proyecto: (agregar aquí la URL de GitHub Pages)
+URL Proyecto: (https://github.com/Jeremiasv12/cv-apellido-nombre)
