@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae - Juan Pérez</title>
+
+    <!-- TIPOGRAFÍA GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+        <h1>Juan Pérez</h1>
+        <h3>Estudiante de Programación</h3>
+        <img class="foto-perfil"
+            src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg"
+            alt="Foto de perfil">
+
+        <p>Joven estudiante apasionado por la programación y las nuevas tecnologías.
+           Disfruto aprender, crear soluciones y mejorar mis habilidades día a día.</p>
+    </header>
+
+    <!-- BOTONES -->
+    <div class="btn-container">
+        <button class="btn" onclick="mostrarArea('experiencia')">Experiencia / Formación</button>
+        <button class="btn" onclick="mostrarArea('habilidades')">Habilidades</button>
+        <button class="btn" onclick="mostrarArea('contacto')">Contacto</button>
+    </div>
+
+    <!-- ÁREAS -->
+    <section id="experiencia" class="area">
+    <h2>Experiencia / Formación</h2>
+
+    <h3>Experiencia Laboral</h3>
+    <p><strong>Desarrollador Junior</strong> en 
+        <a href="https://www.microsoft.com" target="_blank">Microsoft</a>
+    </p>
+    <p>Email laboral: 
+        <a href="mailto:contacto@empresa.com">contacto@empresa.com</a>
+    </p>
+
+    <h3>Formación Académica</h3>
+    <ul>
+        <li><strong>Curso de Programación Full Stack</strong> – <a href="https://www.coderhouse.com/" target="_blank">Coderhouse</a></li>
+        <li><strong>Diplomatura en Desarrollo Web</strong> – <a href="https://www.udemy.com" target="_blank">Udemy</a></li>
+        <li><strong>Bootcamp JavaScript</strong> – <a href="https://www.freecodecamp.org" target="_blank">FreeCodeCamp</a></li>
+    </ul>
+</section>
+
+
+   <section id="habilidades" class="area">
+    <h2>Habilidades Técnicas</h2>
+
+    <p><img class="icono" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"> HTML</p>
+    <p><img class="icono" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"> CSS</p>
+    <p><img class="icono" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"> JavaScript</p>
+    <p><img class="icono" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"> Python</p>
+
+    <h3>Frameworks y Librerías</h3>
+    <p><img class="icono" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"> React</p>
+    <p><img class="icono" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"> Node.js</p>
+    <p><img class="icono" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"> Bootstrap</p>
+    <p><img class="icono" src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/tailwindcss.svg"> Tailwind CSS</p>
+
+    <h3>Bases de Datos</h3>
+    <p><img class="icono" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"> MySQL</p>
+    <p><img class="icono" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"> MongoDB</p>
+
+    <h3>Herramientas</h3>
+    <p><img class="icono" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"> Git</p>
+    <p><img class="icono" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"> GitHub</p>
+</section>
+
+
+    <section id="contacto" class="area">
+        <h2>Contacto</h2>
+        <form>
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Mensaje" rows="5" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>

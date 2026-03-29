@@ -1,0 +1,93 @@
+:root {
+    --color-primario: #2a6fdb;
+    --color-secundario: #f4f4f4;
+    --color-texto: #333;
+    --color-boton-hover: #1d54a8;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--color-secundario);
+    margin: 0;
+    color: var(--color-texto);
+}
+
+/* ENCABEZADO */
+header {
+    text-align: center;
+    padding: 30px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.foto-perfil {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* BOTONES */
+.btn-container {
+    text-align: center;
+    margin: 25px;
+}
+
+.btn {
+    background: var(--color-primario);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: var(--color-boton-hover);
+}
+
+/* ÁREAS */
+.area {
+    display: none;
+    background: white;
+    padding: 25px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.icono {
+    width: 40px;
+    margin-right: 10px;
+}
+
+/* FORMULARIO */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input, textarea {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    background: var(--color-primario);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+    background: var(--color-boton-hover);
+}
